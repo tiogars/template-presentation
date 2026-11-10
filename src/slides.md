@@ -308,7 +308,7 @@ Mention the demo database setup and the known caveat that the old table is not a
 
 ## Demo Database
 
-Apply `java/api/src/main/resources/db/manual/task-domains.sql` before API startup.
+Apply `template-java-api/src/main/resources/db/manual/task-domains.sql` before API startup on an existing database (automatic on a new Dokploy volume).
 `ddl-auto: update` is not a data migration and does not remove legacy tables.
 
 ```bash
